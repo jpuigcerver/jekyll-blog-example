@@ -272,10 +272,18 @@
 .contributor-list {
 }
 
+.contributor-entry {
+  @extend %clearfix;
+}
+
+.contributor-content {
+  min-height: 160px;
+}
+
 .contributor-image {
   float: left;
-  width: 180px;
-  padding: 0 10px 10px 0;
+  width: 160px;
+  padding: 0 10px 0 0;
   img {
     border-radius: 50%;
   }

@@ -20,10 +20,10 @@ layout: default
     <div>
       {%- include social.html -%}
     </div>
-    <div class="post-content">
+    <div class="post-content contributor-content">
       {% if author.picture %}
       <div class="contributor-image">
-	<img src="{{ author.picture }}">
+	<img src="{{ author.picture | relative_url }}">
       </div>
       {% endif %}
       {{ author.content }}

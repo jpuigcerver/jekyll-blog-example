@@ -1,7 +1,7 @@
 ---
 name: jmaronas
 fullname: Juan Maroñas
-picture: ../assets/jmaronas.jpg
+picture: /assets/jmaronas.jpg
 github_username: jmaronas
 linkedin_username: juan-maronas-molano
 ---
